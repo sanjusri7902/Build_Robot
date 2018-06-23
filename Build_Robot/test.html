@@ -1,0 +1,32 @@
+<html>
+<head>
+<script type="text/javascript" src="table_script.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<table align='center' cellspacing=2 cellpadding=5 id="data_table" border=1>
+
+
+<label>Robot Types</label>
+<select name="robot_types" id="robot_type" style="width:150px">
+  <option value="Flying Robot">Flying Robot</option>
+  <option value="Wheeled Robot">Wheeled Robot</option>
+  <option value="Walking Robot">Walking Robot</option>
+</select>
+<br><br>
+<label>Robot Colors</label>
+<select name="robot_colors" id="robot_color" style="width:150px">
+  <option value="Gold">Gold</option>
+  <option value="Silver">Silver</option>
+  <option value="Bronze">Bronze</option>
+</select>
+<br><br>
+
+<input type="button" class="add" onclick="add_row();" value="Build My Bot Row">
+
+
+</table>
+</div>
+
+</body>
+</html>
